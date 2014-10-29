@@ -393,8 +393,8 @@ module TSM {
             var t = 1.0 - c;
 
             var a00 = this.values[0], a01 = this.values[1], a02 = this.values[2],
-                a10 = this.values[4], a11 = this.values[5], a12 = this.values[6],
-                a20 = this.values[8], a21 = this.values[9], a22 = this.values[10];
+                a10 = this.values[3], a11 = this.values[4], a12 = this.values[5],
+                a20 = this.values[6], a21 = this.values[7], a22 = this.values[8];
 
             var b00 = x * x * t + c, b01 = y * x * t + z * s, b02 = z * x * t - y * s,
                 b10 = x * y * t - z * s, b11 = y * y * t + c, b12 = z * y * t + x * s,
