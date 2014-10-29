@@ -2335,4 +2335,11 @@ var TSM;
  * @author Matthias Ferch
  * @version 0.6
  */
+///<reference path='./vec2.ts' />
+///<reference path='./vec3.ts' />
+///<reference path='./vec4.ts' />
+///<reference path='./mat2.ts' />
+///<reference path='./mat3.ts' />
+///<reference path='./mat4.ts' />
+///<reference path='./quat.ts' />
 //# sourceMappingURL=tsm-0.8.js.map

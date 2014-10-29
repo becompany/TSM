@@ -271,3 +271,11 @@ declare module TSM {
         static identity: quat;
     }
 }
+/**
+ * @fileoverview TSM - A TypeScript vector and matrix math library
+ * @author Matthias Ferch
+ * @version 0.6
+ */
+declare module "TSM" {
+    export = TSM;
+}

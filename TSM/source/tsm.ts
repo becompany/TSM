@@ -40,5 +40,7 @@
 
 ///<reference path='./quat.ts' />
 
-
+declare module "TSM" {
+  export = TSM;
+}
 
